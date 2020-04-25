@@ -11,6 +11,7 @@ registry keys are use.
 To make the app portable, the PortableApps.com launcher ..\App\AppInfo\Launcher\IPMessengerHSToolsPortable.ini has the
 
 [RegistryKeys]
+
 IPMessengerHSTools=HKCU\Software\HSTools
 
 which puts the registry keys in the ..\Data\settings\IPMessengerHSTools.reg inside the portable app directory.
@@ -22,10 +23,13 @@ IP Messenger HSTools also uses the
 directory to store ipmsg.log file, ipmsg.db file, AutoSave folder, and ipmsg_img folder.
 To remedy this, parameters,
 [Environment]
+
 USERPROFILE=%PAL:DataDir%
+
 ALLUSERSAPPDATA=%PAL:DataDir%
 
 [DirectoriesMove]
+
 -=%DOCUMENTS%\IPMsg
 
 are set in ..\App\AppInfo\Launcher\IPMessengerHSToolsPortable.ini among a host of other parameters to make the app work portably.  Currently, it seems to be the only way to get it to work properly.
@@ -33,6 +37,7 @@ are set in ..\App\AppInfo\Launcher\IPMessengerHSToolsPortable.ini among a host o
 It is believed that since this app uses encryption for safety communication, a pair of public encryption keys (e.g. MachineKeys) in
 
 \ProgramData\Microsoft\Crypto\RSA\MachineKeys\????????????????????????????????_????????-????-????-????-????????????
+
 \ProgramData\Microsoft\Crypto\RSA\MachineKeys\????????????????????????????????_????????-????-????-????-????????????
 
 get generated on first run on the machine itself.
