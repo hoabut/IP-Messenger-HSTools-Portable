@@ -22,6 +22,7 @@ IP Messenger HSTools also uses the
 
 directory to store ipmsg.log file, ipmsg.db file, AutoSave folder, and ipmsg_img folder.
 To remedy this, parameters,
+
 [Environment]
 
 USERPROFILE=%PAL:DataDir%
@@ -45,10 +46,15 @@ Note the private encryption keys are generated in the registry which is stored i
 
 On first run (or even subsequent runs if not added on the first run) the app pops up a dialog box giving the user a chance to add firewall rules pertaining to 2425/UDP port for member detection and message communication, and 2425/TCP port for file and image transfer.  It will require an elevated privilege in order to add the app or the ports required in the firewall.
 This can also be accomplish by elevated command line,
+
 netsh advfirewall firewall add rule name=”IP Messenger” dir=in action=allow program=”..\app\ ipmessengerhstools64\ipmsg.exe” enable=yes
+
 netsh advfirewall firewall add rule name=”IP Messenger” dir=out action=allow program=”..\app\ ipmessengerhstools64\ipmsg.exe” enable=yes
+
 or by ports,
+
 netsh advfirewall firewall add rule name=”Open TCP Port 2425” dir=in action=allow protocol=TCP localport=2425
+
 netsh advfirewall firewall add rule name=”Open UDP Port 2425” dir=in action=allow protocol=UDP localport=2425
 
 Besides meeting the portable app definition at https://portableapps.com/about/what_is_a_portable_app, it is very workable in other OS/platform such as Linux, Unix, BSD, etc via Wine & Mac OS X via CrossOver, Wineskin, WineBottler, PlayOnMac.
