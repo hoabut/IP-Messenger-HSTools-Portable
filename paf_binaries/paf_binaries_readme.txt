@@ -1,0 +1,1 @@
+The paf.exe files in this directory are paf binary releases (i.e. releases)
