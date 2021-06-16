@@ -1,7 +1,7 @@
+<p><img src="IP-Messenger-HSTools-Portable\IPMessengerHSToolsPortable64bit\App\AppInfo\appicon_128.png" width="128" height="128" style="float:left;">
+  <br>
 # IP-Messenger-HSTools-Portable
-IP Messenger HSTools Portable is the serverless pop up style LAN message communication software packaged with a PortableApps.com launcher as a portable app.
-
-You can send and receive messages with embedded images and files all with RSA2048/AES256/SHA-256 (or SHA-1) encryption on your iPod, USB flash drive, portable hard drive, cloud drive, etc.  It has all the same features as IP Messenger HSTools, plus, it leaves no personal information behind on the machine you run it on, so you can take it with you wherever you go.  A noted feature among its many features is folder/file transfers are among the fastest since it uses FastCopy codes which achieve reading/writing performance that is close to device limit.  Learn more about IP Messenger HSTools at https://ipmsg.org/en/ …
+IP Messenger HSTools Portable is the serverless pop up style LAN message communication software packaged with a PortableApps.com launcher as a portable app.  You can send and receive messages with embedded images and files all with RSA2048/AES256/SHA-256 (or SHA-1) encryption on your cloud folder, portable drive, or local folder without needing to install it on each PC.  It has all the same features as IP Messenger HSTools, plus, it leaves no personal information behind on the machine you run it on, so you can take it with you wherever you go.  A noted feature among its many features is folder/file transfers are among the fastest since it uses FastCopy codes which achieve reading/writing performance that is close to device limit.  Learn more about IP Messenger HSTools at https://ipmsg.org/en/ …
 
 IP Messenger HSTools uses Windows registry to store its settings.  Specifically,
 
@@ -57,4 +57,4 @@ netsh advfirewall firewall add rule name=”Open TCP Port 2425” dir=in action=
 
 netsh advfirewall firewall add rule name=”Open UDP Port 2425” dir=in action=allow protocol=UDP localport=2425
 
-Besides meeting the portable app definition at https://portableapps.com/about/what_is_a_portable_app, it is very workable in other OS/platform such as Linux, Unix, BSD, etc via Wine & Mac OS X via CrossOver, Wineskin, WineBottler, PlayOnMac.
+Besides meeting the portable app definition at https://portableapps.com/about/what_is_a_portable_app, it is very workable in other OS/platform such as Linux, UNIX, BSD, etc. via Wine (winehq.org) & Mac OS X via CrossOver, Wineskin, WineBottler, PlayOnMac.
