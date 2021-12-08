@@ -1,0 +1,1 @@
+The 7z files in this directory are packaged version of the PortableApps.com Format templates (i.e. sources)
