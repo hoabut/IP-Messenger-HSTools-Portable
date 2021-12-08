@@ -1,5 +1,4 @@
-![image info](./ipmessengerhstoolsportable_readme_version_5.1.1_gh_files/media/image1.png){width="1.3333333333333333in"
-height="1.3333333333333333in"}
+![image info](./ipmessengerhstoolsportable_readme_version_5.1.1_gh_files/media/image1.png)
 
 IP Messenger HSTools Portable
 
