@@ -1,4 +1,4 @@
-![image info](./ipmessengerhstoolsportable_readme_version_5.4.0_gh_files/media/image1.png)
+![image info](./ipmessengerhstoolsportable_readme_version_5.6.1_gh_files/media/image1.png)
 
 IP Messenger HSTools Portable
 
@@ -9,21 +9,20 @@ paf_binaries folder: contains all .paf.exe releases (i.e. releases)
 paf_templates folder: contains all PortableApps.com Format template
 releases (i.e. sources)
 
-ipmessengerhstoolsportable_readme_version_5.4.0_gh.docx file: this file
+ipmessengerhstoolsportable_readme_version_5.6.1_gh.docx file: this file
 in .docx
 
 README.md file: this file in .md
 
 [Download latest
-release](https://github.com/hoabut/IP-Messenger-HSTools-Portable/releases/tag/v5.4.0)
+release](https://github.com/hoabut/IP-Messenger-HSTools-Portable/releases/tag/v5.6.1)
 
 [Go to the IP Messenger HSTools Portable
 Homepage](https://portableapps.com/node/62011)
 
-2022-06-12: 5.4.0:
+2023-07-27: 5.6.1:
 
--   Log Viewer has many additions including period refinement function
-    and color emoji
+-   Notables in this release: PortableAppsFormat 3.7
 
 For IP Messenger HSTools release notes, go ahead and consult
 <https://ipmsg.org/en/>
